@@ -1,0 +1,19 @@
+DATA QUALITY CHECK
+
+Dataset: Sample - Superstore.csv
+Rows: 9,994
+Columns: 21
+
+Checks:
+- Duplicate Row ID: 0
+- Exact duplicate rows: 0
+- Missing cells: 0
+- Invalid order dates: 0
+- Invalid ship dates: 0
+- Ship date before order date: 0
+- Negative sales rows: 0
+- Invalid numeric values: 0
+
+There are 1,871 rows with negative profit. These are valid loss-making sales, so they were kept.
+
+This check covers the CSV file only. Oracle and Power BI cross-checks have not been run.

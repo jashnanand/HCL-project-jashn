@@ -1,0 +1,19 @@
+Total Sales = SUM(FACT_SALES[Sales])
+Total Profit = SUM(FACT_SALES[Profit])
+Total Orders = DISTINCTCOUNT(FACT_SALES[Order ID])
+Units Sold = SUM(FACT_SALES[Quantity])
+Average Order Value = DIVIDE([Total Sales], [Total Orders])
+Profit Margin % = DIVIDE([Total Profit], [Total Sales], 0)
+
+DimDate =
+CALENDAR(MIN(FACT_SALES[Order Date]), MAX(FACT_SALES[Order Date]))
+
+Year = YEAR(DimDate[Date])
+Month = FORMAT(DimDate[Date], "MMM")
+YearMonth = FORMAT(DimDate[Date], "YYYY-MM")
+Quarter = "Q" & FORMAT(DimDate[Date], "Q")
+
+-- Create a one-to-many relationship from DimDate[Date] to FACT_SALES[Order Date].
+-- Suggested slicers: Year, Region, Category.
+-- Suggested visuals: KPI cards, monthly line chart, regional bar chart,
+-- Top 10 Product Name by Sales, Category donut chart, Product Detail drill-through.

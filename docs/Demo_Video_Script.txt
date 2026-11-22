@@ -1,0 +1,11 @@
+SALES PERFORMANCE DASHBOARD - DEMO
+
+1. Introduce the project and dataset.
+2. Show the CSV and its columns.
+3. Run the Python file and show the output.
+4. Show the Oracle table and queries after running them.
+5. Open the Power BI report and test the Year, Region and Category filters.
+6. Show the monthly sales chart and Top 10 products.
+7. End with the main results.
+
+Only show Oracle and Power BI results after you have run them.

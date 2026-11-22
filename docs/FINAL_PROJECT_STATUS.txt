@@ -1,0 +1,17 @@
+FINAL PROJECT STATUS
+
+Python analysis: completed on the supplied 9,994-row CSV.
+Power BI: dashboard created by the student. Six KPI values were checked and confirmed against the source totals. Slicers and product drill-through were tested by the student.
+SQL logic: checked with SQLite using the supplied CSV. Totals matched the Python results.
+Oracle: Oracle scripts are ready, but they have not been run in an Oracle database.
+Demo video: still needs to be recorded.
+
+Main results:
+Sales: $2,297,200.86
+Profit: $286,397.02
+Orders: 5,009
+Units sold: 37,873
+Average order value: $458.61
+Profit margin: 12.47%
+
+For HCL upload, add the PBIX file saved from Power BI Desktop. Do not mark Oracle execution or cross-tool Oracle checks as complete.

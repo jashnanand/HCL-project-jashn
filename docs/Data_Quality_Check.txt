@@ -16,4 +16,3 @@ Checks:
 
 There are 1,871 rows with negative profit. These are valid loss-making sales, so they were kept.
 
-This check covers the CSV file only. Oracle and Power BI cross-checks have not been run.

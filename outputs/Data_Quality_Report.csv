@@ -1,0 +1,15 @@
+Check,Result,Notes
+Source rows,9994,9,994 rows in supplied CSV
+Columns,21,21 columns
+Duplicate Row ID,0,No repeated Row ID values
+Exact duplicate rows,0,No fully repeated rows
+Missing cells,0,No blank cells found
+Invalid Order Date,0,All order dates could be read
+Invalid Ship Date,0,All ship dates could be read
+Ship date before order date,0,No ship date earlier than order date
+Negative Sales rows,0,No negative sales values
+Negative Profit rows,1871,Valid loss-making rows; kept in analysis
+Invalid Sales values,0,Numeric values checked
+Invalid Profit values,0,Numeric values checked
+Invalid Quantity values,0,Numeric values checked
+Invalid Discount values,0,Numeric values checked

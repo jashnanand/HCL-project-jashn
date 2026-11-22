@@ -7,6 +7,3 @@ Orders: 5,009
 
 Oracle: SQL file is ready. It still needs to be run in Oracle.
 Power BI: DAX and setup notes are ready. The PBIX file is still to be made.
-Demo video: Script is ready. Video is still to be recorded.
-
-Do not report Oracle and Power BI as complete until they have been run.

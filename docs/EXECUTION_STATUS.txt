@@ -1,10 +1,12 @@
-PROJECT EXECUTION STATUS
-Dataset: uploaded Kaggle Sample - Superstore.csv (9,994 rows, 21 columns).
-Python: executed successfully on the real source CSV. Rows retained: 9,994.
-Total Sales: $2,297,200.86. Total Profit: $286,397.02. Distinct orders: 5,009.
-Data quality: 0 duplicate Row ID, 0 missing cells, 0 invalid Order Date, 0 negative Sales rows. Negative Profit values are present and retained.
-Oracle SQL: scripts prepared; not yet executed against an Oracle database.
-Power BI: DAX and build guide prepared; interactive PBIX not yet created.
-GitHub: project source files being published to this repository.
-Demo video: storyboard prepared; recording pending.
-Do not claim pending tasks are completed.
+PROJECT STATUS
+
+Python: Run on the supplied CSV. 9,994 rows were kept.
+Sales: $2,297,200.86
+Profit: $286,397.02
+Orders: 5,009
+
+Oracle: SQL file is ready. It still needs to be run in Oracle.
+Power BI: DAX and setup notes are ready. The PBIX file is still to be made.
+Demo video: Script is ready. Video is still to be recorded.
+
+Do not report Oracle and Power BI as complete until they have been run.

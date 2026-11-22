@@ -8,4 +8,3 @@ SALES PERFORMANCE DASHBOARD - DEMO
 6. Show the monthly sales chart and Top 10 products.
 7. End with the main results.
 
-Only show Oracle and Power BI results after you have run them.

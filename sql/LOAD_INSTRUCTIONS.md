@@ -6,5 +6,3 @@
 4. Match the columns in the same order as the table.
 5. Set Order Date and Ship Date format to `MM/DD/YYYY`.
 6. Run the checks and reports in the SQL file.
-
-Do not import the same file twice unless you clear the table first.

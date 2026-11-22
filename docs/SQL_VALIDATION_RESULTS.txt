@@ -14,10 +14,3 @@ Top region: West
 
 The totals match the Python analysis and the Power BI KPI values.
 
-Important: this test used SQLite. It checks the query logic but does not prove that the Oracle scripts have run in Oracle. Oracle testing is still pending.
-
-To repeat the test:
-1. Install pandas.
-2. Put the Kaggle CSV in data/Sample - Superstore.csv.
-3. Run: python python/sql_validation.py
-4. Check the CSV results in outputs.

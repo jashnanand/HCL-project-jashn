@@ -1,0 +1,8 @@
+DEMO VIDEO STORYBOARD (2-3 minutes)
+1. Intro: project title, objective, tools and Kaggle source.
+2. Dataset: show 9,994 rows, 21 columns and date range.
+3. Python: run sales_analysis.py; show cleaning checks and outputs.
+4. Oracle: show FACT_SALES table, KPI query, monthly query and Top 10 ranking query.
+5. Power BI: show KPI cards, monthly trend, region/category visuals; interact with Year, Region and Category slicers; demonstrate product drill-through.
+6. Validation: compare source, Python, Oracle and Power BI sales totals; claim <=0.1% only if measured.
+7. Closing: summarize data-backed insights.

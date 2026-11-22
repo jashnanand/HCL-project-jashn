@@ -1,0 +1,11 @@
+MAIN PROJECT FINDINGS
+
+- Total sales are $2,297,200.86.
+- Total profit is $286,397.02.
+- The West region has the highest sales.
+- Technology is the top category by sales.
+- Canon imageCLASS 2200 Advanced Copier is the top-selling product.
+- November 2017 is the highest sales month.
+- Tables is a loss-making sub-category, with total profit below zero.
+
+These results are from the supplied Sample Superstore CSV.

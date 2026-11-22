@@ -1,0 +1,23 @@
+SQL CHECK RESULTS
+
+The supplied Sample Superstore CSV was loaded into SQLite to test the table, join, grouping and ranking logic.
+
+Rows: 9,994
+Orders: 5,009
+Sales: $2,297,200.86
+Profit: $286,397.02
+Units: 37,873
+Customer records: 793
+Product records: 1,862
+Top product: Canon imageCLASS 2200 Advanced Copier
+Top region: West
+
+The totals match the Python analysis and the Power BI KPI values.
+
+Important: this test used SQLite. It checks the query logic but does not prove that the Oracle scripts have run in Oracle. Oracle testing is still pending.
+
+To repeat the test:
+1. Install pandas.
+2. Put the Kaggle CSV in data/Sample - Superstore.csv.
+3. Run: python python/sql_validation.py
+4. Check the CSV results in outputs.
